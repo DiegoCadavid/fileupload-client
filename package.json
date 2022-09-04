@@ -2,7 +2,7 @@
   "name": "uploadfile_client",
   "private": true,
   "version": "0.0.0",
-  "homepage": ".",
+  "homepage": "https://diegocadavid.github.io/fileupload-client",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
