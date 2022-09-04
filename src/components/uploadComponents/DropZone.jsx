@@ -1,6 +1,5 @@
 import React from 'react'
 import { useDropzone } from 'react-dropzone';
-import dropLogo from '../../assets/image.svg';
 
 
 
@@ -18,7 +17,7 @@ const DropZone = ({ uploadFuction }) => {
     return (
             <div {...getRootProps({ className: 'fileupload__dropzone' })}>
                 <input {...getInputProps()}/>
-                <img src={dropLogo} alt="dropzone logo" accept='image/png, image/jpeg' />
+                <img src='./assets/image.svg' alt="dropzone logo" accept='image/png, image/jpeg' />
                 <p>Drag & Drop your image here</p>
             </div>
     )
