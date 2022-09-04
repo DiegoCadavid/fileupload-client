@@ -17,7 +17,7 @@ const DropZone = ({ uploadFuction }) => {
     return (
             <div {...getRootProps({ className: 'fileupload__dropzone' })}>
                 <input {...getInputProps()}/>
-                <img src='./assets/image.svg' alt="dropzone logo" accept='image/png, image/jpeg' />
+                <img src='./image.svg' alt="dropzone logo" accept='image/png, image/jpeg' />
                 <p>Drag & Drop your image here</p>
             </div>
     )
